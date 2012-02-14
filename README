@@ -1,1 +1,4 @@
 This is a simple implementation and modification of the Grid2 sample code that ships with the android sdk. I wanted something without as much space around each image, with a view that looks good across various phones.
+
+Now using ActionBarSherlock (v3.5.1) library to provide an action bar to any android 2.1 and up. Get library here - http://actionbarsherlock.com
+
