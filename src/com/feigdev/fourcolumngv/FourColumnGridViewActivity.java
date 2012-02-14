@@ -17,12 +17,12 @@
 
 package com.feigdev.fourcolumngv;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Point;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Display;
 import android.view.View;
@@ -31,7 +31,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class FourColumnGridViewActivity extends Activity {
+public class FourColumnGridViewActivity extends FragmentActivity {
 	private static final String TAG = "FourColumnGridView";
 	private Point imgSize;
 	
